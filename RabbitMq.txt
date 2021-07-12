@@ -1,0 +1,11 @@
+rabbitmqctl.bat app_start
+rabbitmq-plugins enable rabbitmq-management
+rabbitmqctl.bat add_user desertposition desert
+rabbitmqctl.bat add_user Menu1 menu1
+rabbitmqctl.bat set_user_tags desertposition administrator
+rabbitmqctl.bat set_user_tags Menu1 administrator
+
+
+
+depois disso abrir a http://localhost:15672/
+em admin e adicionar as permissões a todos

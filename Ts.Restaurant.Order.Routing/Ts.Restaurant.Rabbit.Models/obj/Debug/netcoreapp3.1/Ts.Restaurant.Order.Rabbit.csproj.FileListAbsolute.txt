@@ -1,0 +1,9 @@
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.deps.json
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.pdb
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.AssemblyInfoInputs.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.AssemblyInfo.cs
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.csproj.CoreCompileInputs.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.pdb
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.csproj.AssemblyReference.cache

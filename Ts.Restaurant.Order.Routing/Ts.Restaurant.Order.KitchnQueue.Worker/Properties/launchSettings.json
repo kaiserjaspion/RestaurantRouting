@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Ts.Restaurant.Order.KitchnQueue.Worker": {
+      "commandName": "Project",
+      "commandLineArgs": "DesertQueue localhost desert desertposition"
+    }
+  }
+}
