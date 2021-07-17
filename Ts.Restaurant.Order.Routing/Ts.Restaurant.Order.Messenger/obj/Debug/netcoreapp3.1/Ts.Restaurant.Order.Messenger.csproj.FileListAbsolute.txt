@@ -1,0 +1,9 @@
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.deps.json
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.pdb
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.csproj.AssemblyReference.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.AssemblyInfoInputs.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.AssemblyInfo.cs
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.csproj.CoreCompileInputs.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Messenger\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.pdb

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ZsDgvY+aL+lbf01F6S4tOQu8dWNjj2lvnHefNTFUXC1cRpk0BeB9y5pFh+BpoDGoSLg2gzEtX9L4YoaOaFmU6Q==",
+  "dgSpecHash": "esepjjS2PvPTpgQv8nQ83XX0YKFFlDoKQ8mBRfHzRiJaSky6r1li7vkvsDljs2P5X8gy89AtFw/nv59ScqpaYQ==",
   "success": true,
   "projectFilePath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.KitchenQueue\\Ts.Restaurant.Order.KitchenQueue.csproj",
   "expectedPackageFiles": [

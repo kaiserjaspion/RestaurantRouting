@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OVo30STwHvfSYeNNzvNBO7JAr+U1TBaL6iKVNTD3nUPOmcrupV6SdOkDBloK6Unt7BLGRqDU5QRm1anbmzeG4g==",
+  "dgSpecHash": "F4xYadLk/bk+U4z/uUgG0ZhKRlDU4SaVLrQG2C1Q8Ag6Gj+SmdlU0qFM2LKPS9EuxC57j1qwOUW7TkNuDxVRvg==",
   "success": true,
   "projectFilePath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Routing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pires\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\pires\\.nuget\\packages\\confluent.kafka\\1.7.0\\confluent.kafka.1.7.0.nupkg.sha512",
+    "C:\\Users\\pires\\.nuget\\packages\\librdkafka.redist\\1.7.0\\librdkafka.redist.1.7.0.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\microsoft.aspnetcore.nodeservices\\3.1.0\\microsoft.aspnetcore.nodeservices.3.1.0.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\microsoft.aspnetcore.spaservices\\3.1.0\\microsoft.aspnetcore.spaservices.3.1.0.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\3.1.0\\microsoft.aspnetcore.spaservices.extensions.3.1.0.nupkg.sha512",
@@ -48,6 +50,8 @@
     "C:\\Users\\pires\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\rabbitmq.client\\6.2.2\\rabbitmq.client.6.2.2.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
+    "C:\\Users\\pires\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\pires\\.nuget\\packages\\serilog.sinks.console\\4.0.0\\serilog.sinks.console.4.0.0.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
     "C:\\Users\\pires\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",

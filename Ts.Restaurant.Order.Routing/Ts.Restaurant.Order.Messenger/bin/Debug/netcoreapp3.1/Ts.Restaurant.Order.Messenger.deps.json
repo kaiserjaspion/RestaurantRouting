@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Ts.Restaurant.Order.Messenger/1.0.0": {
+        "runtime": {
+          "Ts.Restaurant.Order.Messenger.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ts.Restaurant.Order.Messenger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "RabbitMQ.Client": "6.2.2"
+          "RabbitMQ.Client": "6.2.2",
+          "Ts.Restaurant.Order.Messenger": "1.0.0"
         },
         "runtime": {
           "Ts.Restaurant.Order.Rabbit.dll": {}
@@ -72,6 +73,11 @@
             "fileVersion": "4.700.20.21406"
           }
         }
+      },
+      "Ts.Restaurant.Order.Messenger/1.0.0": {
+        "runtime": {
+          "Ts.Restaurant.Order.Messenger.dll": {}
+        }
       }
     }
   },
@@ -129,6 +135,11 @@
       "sha512": "sha512-6akRtHK/wab3246t4p5v3HQrtQk8LboOt5T4dtpNgsp3zvDeM4/Gx8V12t0h+c/W9/enUrilk8n6EQqdQorZAA==",
       "path": "system.threading.channels/4.7.1",
       "hashPath": "system.threading.channels.4.7.1.nupkg.sha512"
+    },
+    "Ts.Restaurant.Order.Messenger/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

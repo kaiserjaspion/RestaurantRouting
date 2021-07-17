@@ -1,0 +1,12 @@
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.deps.json
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.pdb
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.pdb
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.csproj.AssemblyReference.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.AssemblyInfoInputs.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.AssemblyInfo.cs
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.csproj.CoreCompileInputs.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.csproj.CopyComplete
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.Kafka\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Kafka.pdb

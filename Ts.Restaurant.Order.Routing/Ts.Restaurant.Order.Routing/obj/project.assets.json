@@ -15,6 +15,99 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "Confluent.Kafka/1.7.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.0",
+          "librdkafka.redist": "1.7.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.1/Confluent.Kafka.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Confluent.Kafka.dll": {}
+        }
+      },
+      "librdkafka.redist/1.7.0": {
+        "type": "package",
+        "build": {
+          "build/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm64/native/librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/native/alpine-librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/centos6-librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/centos7-librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/librdkafka.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/librdkafka.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/librdkafka.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/librdkafkacpp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/libzstd.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcp120.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/msvcr120.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/zlib.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/librdkafka.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/librdkafkacpp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/libzstd.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcp120.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/msvcr120.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/zlib.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.AspNetCore.NodeServices/3.1.0": {
         "type": "package",
         "dependencies": {
@@ -605,6 +698,27 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Serilog/2.10.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {}
+        }
+      },
+      "Serilog.Sinks.Console/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.10.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Serilog.Sinks.Console.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Serilog.Sinks.Console.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/6.1.4": {
@@ -1656,13 +1770,40 @@
           "bin/placeholder/Ts.Restaurant.Order.Context.dll": {}
         }
       },
+      "Ts.Restaurant.Order.Kafka/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Confluent.Kafka": "1.7.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Serilog.Sinks.Console": "4.0.0",
+          "Ts.Restaurant.Order.Messenger": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Ts.Restaurant.Order.Kafka.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ts.Restaurant.Order.Kafka.dll": {}
+        }
+      },
+      "Ts.Restaurant.Order.Messenger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ts.Restaurant.Order.Messenger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ts.Restaurant.Order.Messenger.dll": {}
+        }
+      },
       "Ts.Restaurant.Order.Rabbit/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "RabbitMQ.Client": "6.2.2"
+          "RabbitMQ.Client": "6.2.2",
+          "Ts.Restaurant.Order.Messenger": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Ts.Restaurant.Order.Rabbit.dll": {}
@@ -1688,6 +1829,68 @@
         "lib/net461/AutoMapper.xml",
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "Confluent.Kafka/1.7.0": {
+      "sha512": "g7dbCUxJPF3SM5qBrIZso0dw3jgRD6tQ0oDb9Cf1oL5l6U5OxSKC90kN79F1QHx8P2wEPBmiWiIUf9Y5ZPPpQw==",
+      "type": "package",
+      "path": "confluent.kafka/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "confluent.kafka.1.7.0.nupkg.sha512",
+        "confluent.kafka.nuspec",
+        "lib/net45/Confluent.Kafka.dll",
+        "lib/net45/Confluent.Kafka.xml",
+        "lib/net46/Confluent.Kafka.dll",
+        "lib/net46/Confluent.Kafka.xml",
+        "lib/netcoreapp2.1/Confluent.Kafka.dll",
+        "lib/netcoreapp2.1/Confluent.Kafka.xml",
+        "lib/netstandard1.3/Confluent.Kafka.dll",
+        "lib/netstandard1.3/Confluent.Kafka.xml",
+        "lib/netstandard2.0/Confluent.Kafka.dll",
+        "lib/netstandard2.0/Confluent.Kafka.xml"
+      ]
+    },
+    "librdkafka.redist/1.7.0": {
+      "sha512": "JoR57Zi4lpRj4GdYynXZoantQMoqt8bZ6g3izCgrhe80aUSUeGbAm+cq9xlCINIfX5Wy0oomU4+NGNeHo/4iAA==",
+      "type": "package",
+      "path": "librdkafka.redist/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CONFIGURATION.md",
+        "LICENSES.txt",
+        "README.md",
+        "build/librdkafka.redist.props",
+        "build/native/include/librdkafka/rdkafka.h",
+        "build/native/include/librdkafka/rdkafka_mock.h",
+        "build/native/include/librdkafka/rdkafkacpp.h",
+        "build/native/lib/win/x64/win-x64-Release/v120/librdkafka.lib",
+        "build/native/lib/win/x64/win-x64-Release/v120/librdkafkacpp.lib",
+        "build/native/lib/win/x86/win-x86-Release/v120/librdkafka.lib",
+        "build/native/lib/win/x86/win-x86-Release/v120/librdkafkacpp.lib",
+        "build/native/librdkafka.redist.targets",
+        "librdkafka.redist.1.7.0.nupkg.sha512",
+        "librdkafka.redist.nuspec",
+        "runtimes/linux-arm64/native/librdkafka.so",
+        "runtimes/linux-x64/native/alpine-librdkafka.so",
+        "runtimes/linux-x64/native/centos6-librdkafka.so",
+        "runtimes/linux-x64/native/centos7-librdkafka.so",
+        "runtimes/linux-x64/native/librdkafka.so",
+        "runtimes/osx-x64/native/librdkafka.dylib",
+        "runtimes/win-x64/native/librdkafka.dll",
+        "runtimes/win-x64/native/librdkafkacpp.dll",
+        "runtimes/win-x64/native/libzstd.dll",
+        "runtimes/win-x64/native/msvcp120.dll",
+        "runtimes/win-x64/native/msvcr120.dll",
+        "runtimes/win-x64/native/zlib.dll",
+        "runtimes/win-x86/native/librdkafka.dll",
+        "runtimes/win-x86/native/librdkafkacpp.dll",
+        "runtimes/win-x86/native/libzstd.dll",
+        "runtimes/win-x86/native/msvcp120.dll",
+        "runtimes/win-x86/native/msvcr120.dll",
+        "runtimes/win-x86/native/zlib.dll"
       ]
     },
     "Microsoft.AspNetCore.NodeServices/3.1.0": {
@@ -2620,6 +2823,50 @@
         "lib/netstandard1.0/_._",
         "runtime.native.system.4.3.0.nupkg.sha512",
         "runtime.native.system.nuspec"
+      ]
+    },
+    "Serilog/2.10.0": {
+      "sha512": "+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "type": "package",
+      "path": "serilog/2.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "lib/netstandard2.0/Serilog.dll",
+        "lib/netstandard2.0/Serilog.xml",
+        "lib/netstandard2.1/Serilog.dll",
+        "lib/netstandard2.1/Serilog.xml",
+        "serilog.2.10.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.Console/4.0.0": {
+      "sha512": "yJQit9sTJ4xGLKgCujqDJsaGqBNJwGB/H898z+xYlMG06twy4//6LLnSrsmpduZxcHIG4im7cv+JmXLzXz2EkQ==",
+      "type": "package",
+      "path": "serilog.sinks.console/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net45/Serilog.Sinks.Console.dll",
+        "lib/net45/Serilog.Sinks.Console.xml",
+        "lib/net5.0/Serilog.Sinks.Console.dll",
+        "lib/net5.0/Serilog.Sinks.Console.xml",
+        "lib/netstandard1.3/Serilog.Sinks.Console.dll",
+        "lib/netstandard1.3/Serilog.Sinks.Console.xml",
+        "lib/netstandard2.0/Serilog.Sinks.Console.dll",
+        "lib/netstandard2.0/Serilog.Sinks.Console.xml",
+        "serilog.sinks.console.4.0.0.nupkg.sha512",
+        "serilog.sinks.console.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.1.4": {
@@ -6002,6 +6249,16 @@
       "path": "../Ts.Restaurant.Order.Context/Ts.Restaurant.Order.Context.csproj",
       "msbuildProject": "../Ts.Restaurant.Order.Context/Ts.Restaurant.Order.Context.csproj"
     },
+    "Ts.Restaurant.Order.Kafka/1.0.0": {
+      "type": "project",
+      "path": "../Ts.Restaurant.Order.Kafka/Ts.Restaurant.Order.Kafka.csproj",
+      "msbuildProject": "../Ts.Restaurant.Order.Kafka/Ts.Restaurant.Order.Kafka.csproj"
+    },
+    "Ts.Restaurant.Order.Messenger/1.0.0": {
+      "type": "project",
+      "path": "../Ts.Restaurant.Order.Messenger/Ts.Restaurant.Order.Messenger.csproj",
+      "msbuildProject": "../Ts.Restaurant.Order.Messenger/Ts.Restaurant.Order.Messenger.csproj"
+    },
     "Ts.Restaurant.Order.Rabbit/1.0.0": {
       "type": "project",
       "path": "../Ts.Restaurant.Rabbit.Models/Ts.Restaurant.Order.Rabbit.csproj",
@@ -6020,6 +6277,7 @@
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.1.4",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.1.4",
       "Ts.Restaurant.Order.Context >= 1.0.0",
+      "Ts.Restaurant.Order.Kafka >= 1.0.0",
       "Ts.Restaurant.Order.Rabbit >= 1.0.0",
       "VueCliMiddleware >= 5.0.0"
     ]
@@ -6064,6 +6322,9 @@
           "projectReferences": {
             "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Context\\Ts.Restaurant.Order.Context.csproj": {
               "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Context\\Ts.Restaurant.Order.Context.csproj"
+            },
+            "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj": {
+              "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj"
             },
             "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Rabbit.Models\\Ts.Restaurant.Order.Rabbit.csproj": {
               "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Rabbit.Models\\Ts.Restaurant.Order.Rabbit.csproj"

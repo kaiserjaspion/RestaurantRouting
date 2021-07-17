@@ -12,11 +12,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Ts.Restaurant.Order.Context.Contexts;
 using Ts.Restaurant.Order.Routing.Mapper;
-using Ts.Restaurant.Order.RabbitMQ.RabbitMQ.Messenger;
 using Ts.Restaurant.Order.RabbitMQ.RabbitMQ.Models;
 using Ts.Restaurant.Order.Routing.Services;
 using VueCliMiddleware;
 using Ts.Restaurant.Order.Routing.Helpers;
+using Ts.Restaurant.Order.Messenger.Messenger;
 
 namespace Ts.Restaurant.Order.Routing
 {
@@ -49,6 +49,8 @@ namespace Ts.Restaurant.Order.Routing
             services.AddDbContext<KitchenContext>(options =>
                 options.UseSqlServer(Configuration["ConnectionString"]));
 
+            var Messenger = Configuration["Messenger"];
+
             services.AddSingleton(services.BuildServiceProvider()
                        .GetService<KitchenContext>());
 
@@ -58,7 +60,11 @@ namespace Ts.Restaurant.Order.Routing
             });
 
             services.AddSwaggerGen();
-            services.AddSingleton<IMessenger, Messenger>();
+            if(Messenger == "RabbitMQ")
+                services.AddSingleton<IMessenger, Ts.Restaurant.Order.RabbitMQ.RabbitMQ.Messenger.Messenger>();
+            if(Messenger == "Kafka")
+                services.AddSingleton<IMessenger, Ts.Restaurant.Order.Kafka.Messenger.Messenger>();
+
             services.AddSingleton<IOrderingService,OrderingService>();
         }
 

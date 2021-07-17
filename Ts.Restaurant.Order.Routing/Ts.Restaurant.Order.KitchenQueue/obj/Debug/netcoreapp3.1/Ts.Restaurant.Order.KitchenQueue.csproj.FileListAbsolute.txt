@@ -74,3 +74,5 @@ D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\T
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchenQueue\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchenQueue\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchenQueue\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchenQueue\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchenQueue\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.pdb

@@ -77,6 +77,150 @@
         }
       }
     },
+    "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj",
+        "projectName": "Ts.Restaurant.Order.Kafka",
+        "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj",
+        "packagesPath": "C:\\Users\\pires\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.212.67.43:8055/nuget": {},
+          "http://10.212.67.43:8056/nuget": {},
+          "http://10.212.67.43:8057/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj": {
+                "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Confluent.Kafka": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj",
+        "projectName": "Ts.Restaurant.Order.Messenger",
+        "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj",
+        "packagesPath": "C:\\Users\\pires\\.nuget\\packages\\",
+        "outputPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pires\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.212.67.43:8055/nuget": {},
+          "http://10.212.67.43:8056/nuget": {},
+          "http://10.212.67.43:8057/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Routing.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -112,6 +256,9 @@
             "projectReferences": {
               "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Context\\Ts.Restaurant.Order.Context.csproj": {
                 "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Context\\Ts.Restaurant.Order.Context.csproj"
+              },
+              "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj": {
+                "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Kafka\\Ts.Restaurant.Order.Kafka.csproj"
               },
               "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Rabbit.Models\\Ts.Restaurant.Order.Rabbit.csproj": {
                 "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Rabbit.Models\\Ts.Restaurant.Order.Rabbit.csproj"
@@ -312,7 +459,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj": {
+                "projectPath": "D:\\ProjetosTeste\\CapegeminiTeste\\RestaurantRouting\\Ts.Restaurant.Order.Routing\\Ts.Restaurant.Order.Messenger\\Ts.Restaurant.Order.Messenger.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

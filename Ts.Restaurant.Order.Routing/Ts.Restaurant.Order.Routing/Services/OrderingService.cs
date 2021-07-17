@@ -10,6 +10,7 @@ using Ts.Restaurant.Order.Context.Models;
 using Ts.Restaurant.Order.Context.Repositories;
 using Microsoft.Extensions.Logging;
 using Ts.Restaurant.Order.Context.Repositories.Models;
+using Ts.Restaurant.Order.Messenger.Messenger;
 
 namespace Ts.Restaurant.Order.Routing.Services
 {

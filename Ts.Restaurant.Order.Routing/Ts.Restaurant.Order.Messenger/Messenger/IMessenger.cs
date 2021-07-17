@@ -1,4 +1,4 @@
-﻿namespace Ts.Restaurant.Order.RabbitMQ.RabbitMQ.Messenger
+﻿namespace Ts.Restaurant.Order.Messenger.Messenger
 {
     public interface IMessenger
     {

@@ -32,6 +32,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ts.Restaurant.Order.Context\Ts.Restaurant.Order.Context.csproj" />
+    <ProjectReference Include="..\Ts.Restaurant.Order.Kafka\Ts.Restaurant.Order.Kafka.csproj" />
     <ProjectReference Include="..\Ts.Restaurant.Rabbit.Models\Ts.Restaurant.Order.Rabbit.csproj" />
   </ItemGroup>
 

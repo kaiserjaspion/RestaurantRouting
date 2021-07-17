@@ -1490,11 +1490,20 @@
           "Ts.Restaurant.Order.Context.dll": {}
         }
       },
+      "Ts.Restaurant.Order.Messenger/1.0.0": {
+        "runtime": {
+          "Ts.Restaurant.Order.Messenger.dll": {}
+        },
+        "compile": {
+          "Ts.Restaurant.Order.Messenger.dll": {}
+        }
+      },
       "Ts.Restaurant.Order.Rabbit/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "RabbitMQ.Client": "6.2.2"
+          "RabbitMQ.Client": "6.2.2",
+          "Ts.Restaurant.Order.Messenger": "1.0.0"
         },
         "runtime": {
           "Ts.Restaurant.Order.Rabbit.dll": {}
@@ -3903,6 +3912,11 @@
       "hashPath": "vueclimiddleware.3.0.0.nupkg.sha512"
     },
     "Ts.Restaurant.Order.Context/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ts.Restaurant.Order.Messenger/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

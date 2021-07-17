@@ -7,3 +7,6 @@ D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\T
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.dll
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.pdb
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.csproj.AssemblyReference.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.dll
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\bin\Debug\netcoreapp3.1\Ts.Restaurant.Order.Messenger.pdb
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Rabbit.Models\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.Rabbit.csproj.CopyComplete

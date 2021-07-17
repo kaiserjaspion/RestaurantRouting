@@ -63,3 +63,4 @@ D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\T
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchnQueue.Worker\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.KitchenQueue.Worker.dll
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchnQueue.Worker\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.KitchenQueue.Worker.pdb
 D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchnQueue.Worker\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.KitchenQueue.Worker.genruntimeconfig.cache
+D:\ProjetosTeste\CapegeminiTeste\RestaurantRouting\Ts.Restaurant.Order.Routing\Ts.Restaurant.Order.KitchnQueue.Worker\obj\Debug\netcoreapp3.1\Ts.Restaurant.Order.KitchenQueue.Worker.csproj.AssemblyReference.cache

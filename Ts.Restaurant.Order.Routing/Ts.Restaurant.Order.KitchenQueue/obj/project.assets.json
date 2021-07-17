@@ -1650,13 +1650,24 @@
           "bin/placeholder/Ts.Restaurant.Order.Context.dll": {}
         }
       },
+      "Ts.Restaurant.Order.Messenger/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Ts.Restaurant.Order.Messenger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ts.Restaurant.Order.Messenger.dll": {}
+        }
+      },
       "Ts.Restaurant.Order.Rabbit/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.Extensions.Options": "5.0.0",
           "Newtonsoft.Json": "13.0.1",
-          "RabbitMQ.Client": "6.2.2"
+          "RabbitMQ.Client": "6.2.2",
+          "Ts.Restaurant.Order.Messenger": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Ts.Restaurant.Order.Rabbit.dll": {}
@@ -5948,6 +5959,11 @@
       "type": "project",
       "path": "../Ts.Restaurant.Order.Context/Ts.Restaurant.Order.Context.csproj",
       "msbuildProject": "../Ts.Restaurant.Order.Context/Ts.Restaurant.Order.Context.csproj"
+    },
+    "Ts.Restaurant.Order.Messenger/1.0.0": {
+      "type": "project",
+      "path": "../Ts.Restaurant.Order.Messenger/Ts.Restaurant.Order.Messenger.csproj",
+      "msbuildProject": "../Ts.Restaurant.Order.Messenger/Ts.Restaurant.Order.Messenger.csproj"
     },
     "Ts.Restaurant.Order.Rabbit/1.0.0": {
       "type": "project",

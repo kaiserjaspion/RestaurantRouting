@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using RabbitMQ.Client;
 using System;
 using System.Text;
+using Ts.Restaurant.Order.Messenger.Messenger;
 using Ts.Restaurant.Order.RabbitMQ.RabbitMQ.Models;
 
 namespace Ts.Restaurant.Order.RabbitMQ.RabbitMQ.Messenger
